@@ -54,7 +54,7 @@ The main function receives two paramaters. First one being `pathFile` and second
 
 <h1>Example</h1>
 <p>
-Example HTML file:
+Example HTML file (index.html):
 
 ```html
   <!DOCTYPE html>
@@ -82,7 +82,7 @@ const http = require("http").Server(app);
 
 const renderHTML = require("giterman");
 
-const finalHTML = renderHTML("./test.html", {
+const finalHTML = renderHTML("./index.html", {
   firstName: "rani",
   lastName: "giterman",
 });
@@ -96,5 +96,5 @@ http.listen(PORT, () => {
 });
 ```
 The result is the following:
-![res](res.png)
+![res](https://github.com/RaniGiterman/giterman/blob/main/res.png)
 </p>
