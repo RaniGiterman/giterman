@@ -1,0 +1,12 @@
+{
+  "name": "giterman",
+  "version": "1.0.9",
+  "description": "Simple minimalistic HTML template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Simple", "HTML"],
+  "author": "Rani Giterman",
+  "license": "ISC"
+}
