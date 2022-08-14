@@ -96,5 +96,5 @@ http.listen(PORT, () => {
 });
 ```
 The result is the following:
-![res](res.jpg)
+![res](res.png)
 </p>
